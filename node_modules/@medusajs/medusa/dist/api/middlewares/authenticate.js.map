@@ -1,0 +1,1 @@
+{"version":3,"file":"authenticate.js","sourceRoot":"","sources":["../../../src/api/middlewares/authenticate.ts"],"names":[],"mappings":";;;;;AACA,sDAA+B;AAE/B,mBAAe;IACb,OAAO,UAAC,GAAY,EAAE,GAAa,EAAE,IAAkB;QACrD,kBAAQ,CAAC,YAAY,CAAC,CAAC,WAAW,EAAE,QAAQ,CAAC,EAAE,EAAE,OAAO,EAAE,KAAK,EAAE,CAAC,CAChE,GAAG,EACH,GAAG,EACH,IAAI,CACL,CAAA;IACH,CAAC,CAAA;AACH,CAAC,EAAA"}
