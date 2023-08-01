@@ -1,0 +1,121 @@
+@font-face {
+  font-family: Gilroy;
+  src: url(./assets/fonts/Gilroy-Bold.ttf);
+  font-weight: 1000;
+}
+@font-face {
+  font-family: Gilroy;
+  src: url(./assets/fonts/Gilroy-Medium.ttf);
+  font-weight: 800;
+}
+@font-face {
+  font-family: TT_commons_pro;
+  src: url(./assets/fonts/Fontspring-DEMO-tt_commons_pro_expanded_black.otf);
+  font-weight: 1000;
+}
+@font-face {
+  font-family: TT_commons_pro;
+  src: url(./assets/fonts/Fontspring-DEMO-tt_commons_pro_expanded_medium.otf);
+  font-weight: 800;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
+
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  background: White !important;
+  font-family: 'Gilroy', monospace !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+p, a, li, button, ul {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+}
+
+
+nav.navbar {
+  background-color: white;
+  padding: 30px 0 0 70px;
+  position: fixed;
+  margin-top: -20px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+  transition: 0.32s ease-in-out;
+}
+
+nav.navbar a.navbar-brand {
+ 
+  font-weight: 1000;
+  font-size: 64px;
+  color: black;
+}
+
+.nav-link {
+ /* display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  margin-left: auto; */
+
+  
+  margin-top: 15px;
+  font-size: 40px;
+  font-weight: 800;
+  color: black;
+  letter-spacing: 1px;
+}
+.men {
+  margin-left: 136px; 
+  margin-right: 136px;
+}
+
+.navbar-logo {
+  margin-left: -180px;
+}
+.left-section-nav {
+  margin-right: -110px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+}
+.cart {
+  margin-right: 70px;
+}
